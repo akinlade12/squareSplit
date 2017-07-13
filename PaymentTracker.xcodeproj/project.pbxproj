@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B03912D1F141EED00ECBBD0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B03912C1F141EED00ECBBD0 /* LoginViewController.swift */; };
 		8B48F73D1F12A64400960CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B48F73C1F12A64400960CAE /* AppDelegate.swift */; };
 		8B48F73F1F12A64400960CAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B48F73E1F12A64400960CAE /* ViewController.swift */; };
 		8B48F7421F12A64400960CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B48F7401F12A64400960CAE /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		8B48F7471F12A64400960CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B48F7451F12A64400960CAE /* LaunchScreen.storyboard */; };
 		8B48F7521F12A64400960CAE /* loginAttempt3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B48F7511F12A64400960CAE /* loginAttempt3Tests.swift */; };
 		8B48F75D1F12A64400960CAE /* loginAttempt3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B48F75C1F12A64400960CAE /* loginAttempt3UITests.swift */; };
+		8BE4D3D31F13334D00202A9B /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4D3D21F13334D00202A9B /* RegisterPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +36,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8B48F7391F12A64400960CAE /* loginAttempt3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginAttempt3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B03912C1F141EED00ECBBD0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8B48F7391F12A64400960CAE /* PaymentTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B48F73C1F12A64400960CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B48F73E1F12A64400960CAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B48F7411F12A64400960CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B48F7431F12A64400960CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B48F7461F12A64400960CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B48F7481F12A64400960CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B48F74D1F12A64400960CAE /* loginAttempt3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginAttempt3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B48F74D1F12A64400960CAE /* PaymentTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B48F7511F12A64400960CAE /* loginAttempt3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginAttempt3Tests.swift; sourceTree = "<group>"; };
 		8B48F7531F12A64400960CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B48F7581F12A64400960CAE /* loginAttempt3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginAttempt3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B48F7581F12A64400960CAE /* PaymentTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B48F75C1F12A64400960CAE /* loginAttempt3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginAttempt3UITests.swift; sourceTree = "<group>"; };
 		8B48F75E1F12A64400960CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BE4D3D21F13334D00202A9B /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,9 @@
 		8B48F7301F12A64400960CAE = {
 			isa = PBXGroup;
 			children = (
-				8B48F73B1F12A64400960CAE /* loginAttempt3 */,
-				8B48F7501F12A64400960CAE /* loginAttempt3Tests */,
-				8B48F75B1F12A64400960CAE /* loginAttempt3UITests */,
+				8B48F73B1F12A64400960CAE /* login */,
+				8B48F7501F12A64400960CAE /* PaymentTrackerTests */,
+				8B48F75B1F12A64400960CAE /* PaymentTrackerUITests */,
 				8B48F73A1F12A64400960CAE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +91,14 @@
 		8B48F73A1F12A64400960CAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B48F7391F12A64400960CAE /* loginAttempt3.app */,
-				8B48F74D1F12A64400960CAE /* loginAttempt3Tests.xctest */,
-				8B48F7581F12A64400960CAE /* loginAttempt3UITests.xctest */,
+				8B48F7391F12A64400960CAE /* PaymentTracker.app */,
+				8B48F74D1F12A64400960CAE /* PaymentTrackerTests.xctest */,
+				8B48F7581F12A64400960CAE /* PaymentTrackerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B48F73B1F12A64400960CAE /* loginAttempt3 */ = {
+		8B48F73B1F12A64400960CAE /* login */ = {
 			isa = PBXGroup;
 			children = (
 				8B48F73C1F12A64400960CAE /* AppDelegate.swift */,
@@ -103,34 +107,39 @@
 				8B48F7431F12A64400960CAE /* Assets.xcassets */,
 				8B48F7451F12A64400960CAE /* LaunchScreen.storyboard */,
 				8B48F7481F12A64400960CAE /* Info.plist */,
+				8BE4D3D21F13334D00202A9B /* RegisterPageViewController.swift */,
+				8B03912C1F141EED00ECBBD0 /* LoginViewController.swift */,
 			);
+			name = login;
 			path = loginAttempt3;
 			sourceTree = "<group>";
 		};
-		8B48F7501F12A64400960CAE /* loginAttempt3Tests */ = {
+		8B48F7501F12A64400960CAE /* PaymentTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
 				8B48F7511F12A64400960CAE /* loginAttempt3Tests.swift */,
 				8B48F7531F12A64400960CAE /* Info.plist */,
 			);
+			name = PaymentTrackerTests;
 			path = loginAttempt3Tests;
 			sourceTree = "<group>";
 		};
-		8B48F75B1F12A64400960CAE /* loginAttempt3UITests */ = {
+		8B48F75B1F12A64400960CAE /* PaymentTrackerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				8B48F75C1F12A64400960CAE /* loginAttempt3UITests.swift */,
 				8B48F75E1F12A64400960CAE /* Info.plist */,
 			);
+			name = PaymentTrackerUITests;
 			path = loginAttempt3UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B48F7381F12A64400960CAE /* loginAttempt3 */ = {
+		8B48F7381F12A64400960CAE /* PaymentTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B48F7611F12A64400960CAE /* Build configuration list for PBXNativeTarget "loginAttempt3" */;
+			buildConfigurationList = 8B48F7611F12A64400960CAE /* Build configuration list for PBXNativeTarget "PaymentTracker" */;
 			buildPhases = (
 				8B48F7351F12A64400960CAE /* Sources */,
 				8B48F7361F12A64400960CAE /* Frameworks */,
@@ -140,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = loginAttempt3;
+			name = PaymentTracker;
 			productName = loginAttempt3;
-			productReference = 8B48F7391F12A64400960CAE /* loginAttempt3.app */;
+			productReference = 8B48F7391F12A64400960CAE /* PaymentTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8B48F74C1F12A64400960CAE /* loginAttempt3Tests */ = {
+		8B48F74C1F12A64400960CAE /* PaymentTrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B48F7641F12A64400960CAE /* Build configuration list for PBXNativeTarget "loginAttempt3Tests" */;
+			buildConfigurationList = 8B48F7641F12A64400960CAE /* Build configuration list for PBXNativeTarget "PaymentTrackerTests" */;
 			buildPhases = (
 				8B48F7491F12A64400960CAE /* Sources */,
 				8B48F74A1F12A64400960CAE /* Frameworks */,
@@ -158,14 +167,14 @@
 			dependencies = (
 				8B48F74F1F12A64400960CAE /* PBXTargetDependency */,
 			);
-			name = loginAttempt3Tests;
+			name = PaymentTrackerTests;
 			productName = loginAttempt3Tests;
-			productReference = 8B48F74D1F12A64400960CAE /* loginAttempt3Tests.xctest */;
+			productReference = 8B48F74D1F12A64400960CAE /* PaymentTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8B48F7571F12A64400960CAE /* loginAttempt3UITests */ = {
+		8B48F7571F12A64400960CAE /* PaymentTrackerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B48F7671F12A64400960CAE /* Build configuration list for PBXNativeTarget "loginAttempt3UITests" */;
+			buildConfigurationList = 8B48F7671F12A64400960CAE /* Build configuration list for PBXNativeTarget "PaymentTrackerUITests" */;
 			buildPhases = (
 				8B48F7541F12A64400960CAE /* Sources */,
 				8B48F7551F12A64400960CAE /* Frameworks */,
@@ -176,9 +185,9 @@
 			dependencies = (
 				8B48F75A1F12A64400960CAE /* PBXTargetDependency */,
 			);
-			name = loginAttempt3UITests;
+			name = PaymentTrackerUITests;
 			productName = loginAttempt3UITests;
-			productReference = 8B48F7581F12A64400960CAE /* loginAttempt3UITests.xctest */;
+			productReference = 8B48F7581F12A64400960CAE /* PaymentTrackerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8B48F7341F12A64400960CAE /* Build configuration list for PBXProject "loginAttempt3" */;
+			buildConfigurationList = 8B48F7341F12A64400960CAE /* Build configuration list for PBXProject "PaymentTracker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +229,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B48F7381F12A64400960CAE /* loginAttempt3 */,
-				8B48F74C1F12A64400960CAE /* loginAttempt3Tests */,
-				8B48F7571F12A64400960CAE /* loginAttempt3UITests */,
+				8B48F7381F12A64400960CAE /* PaymentTracker */,
+				8B48F74C1F12A64400960CAE /* PaymentTrackerTests */,
+				8B48F7571F12A64400960CAE /* PaymentTrackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B03912D1F141EED00ECBBD0 /* LoginViewController.swift in Sources */,
 				8B48F73F1F12A64400960CAE /* ViewController.swift in Sources */,
 				8B48F73D1F12A64400960CAE /* AppDelegate.swift in Sources */,
+				8BE4D3D31F13334D00202A9B /* RegisterPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +296,12 @@
 /* Begin PBXTargetDependency section */
 		8B48F74F1F12A64400960CAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8B48F7381F12A64400960CAE /* loginAttempt3 */;
+			target = 8B48F7381F12A64400960CAE /* PaymentTracker */;
 			targetProxy = 8B48F74E1F12A64400960CAE /* PBXContainerItemProxy */;
 		};
 		8B48F75A1F12A64400960CAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8B48F7381F12A64400960CAE /* loginAttempt3 */;
+			target = 8B48F7381F12A64400960CAE /* PaymentTracker */;
 			targetProxy = 8B48F7591F12A64400960CAE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,7 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = loginAttempt3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = PaymentTracker.loginAttempt3;
+				PRODUCT_BUNDLE_IDENTIFIER = PaymentTracker.version1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,7 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = loginAttempt3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = PaymentTracker.loginAttempt3;
+				PRODUCT_BUNDLE_IDENTIFIER = PaymentTracker.version1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -440,7 +451,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = PaymentTracker.loginAttempt3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loginAttempt3.app/loginAttempt3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentTracker.app/PaymentTracker";
 			};
 			name = Debug;
 		};
@@ -454,7 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = PaymentTracker.loginAttempt3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loginAttempt3.app/loginAttempt3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentTracker.app/PaymentTracker";
 			};
 			name = Release;
 		};
@@ -487,7 +498,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B48F7341F12A64400960CAE /* Build configuration list for PBXProject "loginAttempt3" */ = {
+		8B48F7341F12A64400960CAE /* Build configuration list for PBXProject "PaymentTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B48F75F1F12A64400960CAE /* Debug */,
@@ -496,29 +507,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B48F7611F12A64400960CAE /* Build configuration list for PBXNativeTarget "loginAttempt3" */ = {
+		8B48F7611F12A64400960CAE /* Build configuration list for PBXNativeTarget "PaymentTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B48F7621F12A64400960CAE /* Debug */,
 				8B48F7631F12A64400960CAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		8B48F7641F12A64400960CAE /* Build configuration list for PBXNativeTarget "loginAttempt3Tests" */ = {
+		8B48F7641F12A64400960CAE /* Build configuration list for PBXNativeTarget "PaymentTrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B48F7651F12A64400960CAE /* Debug */,
 				8B48F7661F12A64400960CAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		8B48F7671F12A64400960CAE /* Build configuration list for PBXNativeTarget "loginAttempt3UITests" */ = {
+		8B48F7671F12A64400960CAE /* Build configuration list for PBXNativeTarget "PaymentTrackerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B48F7681F12A64400960CAE /* Debug */,
 				8B48F7691F12A64400960CAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
